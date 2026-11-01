@@ -1,0 +1,46 @@
+OpenVPN 多端安装包下载说明（2026-11-01）
+
+123 云盘只保留下载说明。看不到 MSI / DMG / APK 时，请直接打开下面的 GitHub 下载页；无需购买网盘会员。
+
+统一下载与安装说明：
+https://github.com/UncleJoker/slvvpn-client-downloads
+
+全部安装包列表：
+https://github.com/UncleJoker/slvvpn-client-downloads/releases/latest
+
+一、先下载并安装目标设备的客户端
+
+Windows 电脑：OpenVPN Connect，选择 .msi 文件。
+https://github.com/UncleJoker/slvvpn-client-downloads/releases/download/clients-2026-10-11/openvpn-connect-3.9.0.5008_signed.msi
+
+Mac：OpenVPN Connect，选择 .dmg 文件。
+https://github.com/UncleJoker/slvvpn-client-downloads/releases/download/clients-2026-10-11/openvpn-connect-3.8.2.6009_signed.dmg
+
+安卓手机 / 安卓平板：OpenVPN for Android，选择 .apk 文件。
+https://github.com/UncleJoker/slvvpn-client-downloads/releases/download/clients-2026-10-11/ics-openvpn-0.7.65.apk
+
+iPhone / iPad：从 App Store 安装 OpenVPN Connect；不能安装上述三种安装包。
+https://apps.apple.com/app/openvpn-connect/id590379981
+
+GitHub 页面若显示 Assets，请展开后选择适合设备的安装包。Source code 和 complete-source 是源码，不是安装包。
+
+二、导出自己的连接配置
+
+在 SLVVPN「设置 → 多端通用」选择目标平台，点「导出证书」，按提示生成 .ovpn；资格以页面状态为准。通过系统分享或隔空投送，把文件传给自己的目标设备。
+
+三、导入并连接
+
+Windows / Mac / iPad：在 OpenVPN Connect 选择文件导入，添加自己的 .ovpn 后连接。
+安卓：在 OpenVPN for Android 选择导入 .ovpn，保存配置后点击连接，允许系统添加 VPN。
+
+安装包只用于安装软件，.ovpn 才是个人连接配置。不要公开分享 .ovpn、账号密码或密钥。
+
+下载遇到问题
+
+GitHub 及下载域名在部分网络下可能无法访问，可稍后重试、换网络或使用官方入口；无需购买 123 云盘会员。
+Windows / Mac 官方入口：https://openvpn.net/client/
+安卓官方入口：https://github.com/schwabe/ics-openvpn/releases
+
+文件校验、版权及许可证见 GitHub 下载页。Windows / Mac 软件版权属于 OpenVPN, Inc.；安卓软件作者为 Arne Schwabe。这里提供已核验的固定版本，不代表厂商最新版本。
+
+English: Open the GitHub page above, choose the installer for your device, then import your own .ovpn profile exported from SLVVPN. iPhone and iPad use the App Store. The drive contains download instructions; installers are hosted on GitHub.

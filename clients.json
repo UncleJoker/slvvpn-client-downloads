@@ -1,0 +1,29 @@
+[
+  {
+    "platform": "windows",
+    "appName": "OpenVPN Connect",
+    "version": "3.9.0",
+    "file": "openvpn-connect-3.9.0.5008_signed.msi",
+    "sizeBytes": 125444096,
+    "sha256": "31347812dd37dbbb69bc47de842eb179827266e9dfb45e7f6ce10c5d71a5bad6",
+    "url": "https://github.com/UncleJoker/slvvpn-client-downloads/releases/download/clients-2026-10-11/openvpn-connect-3.9.0.5008_signed.msi"
+  },
+  {
+    "platform": "macos",
+    "appName": "OpenVPN Connect",
+    "version": "3.8.2",
+    "file": "openvpn-connect-3.8.2.6009_signed.dmg",
+    "sizeBytes": 264301071,
+    "sha256": "8d50036510859956d20d1f50e43171be53417431104c6befb1352ff5187c248a",
+    "url": "https://github.com/UncleJoker/slvvpn-client-downloads/releases/download/clients-2026-10-11/openvpn-connect-3.8.2.6009_signed.dmg"
+  },
+  {
+    "platform": "android",
+    "appName": "OpenVPN for Android",
+    "version": "0.7.65",
+    "file": "ics-openvpn-0.7.65.apk",
+    "sizeBytes": 39768839,
+    "sha256": "9ef3ed90f7d0749df62977737034cb4435362e36b0567c6400ffd247b8a9483e",
+    "url": "https://github.com/UncleJoker/slvvpn-client-downloads/releases/download/clients-2026-10-11/ics-openvpn-0.7.65.apk"
+  }
+]
